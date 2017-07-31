@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hitId>
+
+    <!--
+    name为viewid值或页面名称
+    hitid为打点业务id
+    -->
+    <HitIdNode describe="关于页面弹出">
+        <name>FirstFragment</name>
+        <hitid>about.9999</hitid>
+    </HitIdNode>
+    <HitIdNode describe="关于页面弹出">
+        <name>MainActivity</name>
+        <hitid>about.8888</hitid>
+    </HitIdNode>
+     <HitIdNode describe="niuniu页面弹出">
+        <name>SecondActivity</name>
+        <hitid>first.8888</hitid>
+    </HitIdNode>
+    <HitIdNode describe="点击1111111按钮">
+        <name>MainActivity.one</name>
+        <hitid>main.1111</hitid>
+    </HitIdNode>
+    <HitIdNode describe="点击关于页面">
+        <name>MainActivity.nine</name>
+        <hitid>main.2222</hitid>
+    </HitIdNode>
+    <HitIdNode describe="点击关于页面">
+        <name>SecondFragment.first</name>
+        <hitid>secondfragment.6666</hitid>
+    </HitIdNode>
+
+</hitId>

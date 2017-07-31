@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/NbDataStatistics.iml" filepath="$PROJECT_DIR$/NbDataStatistics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smarthitgradle/smarthitgradle.iml" filepath="$PROJECT_DIR$/smarthitgradle/smarthitgradle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smarthitlibrary/smarthitlibrary.iml" filepath="$PROJECT_DIR$/smarthitlibrary/smarthitlibrary.iml" />
+    </modules>
+  </component>
+</project>

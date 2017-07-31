@@ -1,0 +1,28 @@
+apply plugin: 'groovy'
+apply plugin: 'maven'
+
+
+[compileJava, compileTestJava, javadoc]*.options*.encoding = 'UTF-8'
+
+dependencies {
+    compile gradleApi()
+    compile localGroovy()
+    compile 'com.android.tools.build:gradle:2.3.0'
+    sourceCompatibility = 1.7
+    targetCompatibility = 1.7
+}
+
+repositories {
+    jcenter()
+}
+
+group='top.ish.smarthit'
+version='1.0.0'
+
+uploadArchives {
+    repositories {  
+        mavenDeployer {  
+            repository(url: uri('../repo'))  
+        }
+    }  
+}
